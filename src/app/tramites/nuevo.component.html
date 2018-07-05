@@ -1,0 +1,94 @@
+<div class="container formulario" style="margin-top:40px;">
+<form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-2 mb-3">
+        <label for="validationCustom01">Cedula</label>
+        <input type="text" class="form-control text-uppercase" id="validationCustom01"   required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationCustom02">Nombres </label>
+        <input type="text" class="form-control text-uppercase " id="validationCustom02"  required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationCustom02">Apellidos</label>
+          <input type="text" class="form-control text-uppercase" id="validationCustom02" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 ">
+            <label for="validationCustom03">Numero de Contacto</label>
+            <div class="input-group ">
+            <select name="Codigo" class="form-control col-md-4">
+              <option>0416</option>
+              <option>0414</option>
+              <option>0412</option>
+              <option>0426</option>
+              <option>0424</option>
+            </select>
+            <input type="text" class="form-control text-uppercase" id="validationCustom03" required>
+          </div>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+      </div>
+      <div class="form-row">
+           <div class="col-md-3 mb-3 ">
+                <label for="validationCustom03">Institución Universitaria</label>
+                <div class="input-group ">
+                <select name="Codigo" class="form-control">
+                  <option>UNEFA</option>
+                  <option>UCLA</option>
+                  <option>UCV</option>
+                  <option>UTAEB</option>
+                  <option>UPEL</option>
+                  <option>UNEXPO</option>
+                  <option>UFT</option>
+                  <option>UNY</option>
+                  <option>IUJO</option>
+                  <option>UNES</option>
+                  <option>UNSR</option>
+                  <option>UNEFM</option>
+                </select>
+              </div>
+               </div>
+               <div class="col-md-2 mb-3">
+                  <label for="validationCustom01">Tipo de Titulo</label>
+                  <select name="ubicación" class="form-control " >
+                    <option value="">PERGAMINO</option>
+                    <option value="">CARPETA</option>
+                    
+                  </select>
+                  
+                </div>
+               <div class="col-md-2 mb-3">
+                  <label for="validationCustom01">Codigo PUB</label>
+                  <input type="text" class="form-control text-uppercase" id="validationCustom01"   required>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom01">Ubicacion</label>
+                    <select name="ubicación" class="form-control" disabled>
+                      <option value="">ARCHIVO RECEPCION</option>
+                      <option value="">ARCHIVO FIRMA Y SELLO</option>
+                      <option value="">ARCHIVO DIGITALIZACION</option>
+                      <option value="">ARCHIVO DE ENTREGA</option>
+                    </select>
+                    
+                  </div>
+                  <div class="col-md-2 mb-3">
+                      <label for="validationCustom01">Codigo de Archivador</label>
+                      <input type="text" class="form-control text-uppercase" id="validationCustom01" value="AR1-01" disabled required>
+                      
+                    </div>
+          </div>
+    <button class="btn btn-primary" type="submit">Registrar Tramite</button>
+  </form>
+  
+  </div>
